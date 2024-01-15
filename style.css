@@ -197,9 +197,71 @@ border: 2px solid black;
 
 
 
+.popular{
+    margin-top: 80px;
+    height: 550px;
+   border-radius: 16px;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.popular-info{
+    width: 45%;
+}
 
+.pry-h2{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 30px;
+}
+.pry-p{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 162.5% ;
+max-width:  577px;
+}
+.popular ul{
+    list-style-position: inside;
+}
 
+.popular ul li{
+    text-indent: -1.3em;
+    padding-left: 1.2em;
+    
 
+}
+.popular .img-container{
+    width: 50%;
+    border-radius: 16px;
+    height: 100%;
+}
+.popular img{
+    border-radius: 16px;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.popular .main-p{
+    margin-bottom: 30px;
+
+}
+.popular-info ul li {
+    margin-bottom: 20px;
+    
+}
+.popular-info button{
+    padding: 14px 34px;
+    border-radius: 8px;
+background: #FF5400;
+border: none;
+
+color: #FFF;
+font-size: 20px;
+font-weight: 800;
+}
 
 
 
@@ -492,24 +554,93 @@ line-height:  150%
     text-align: center;
     font-size: 16px;
     font-weight: 700;
-    border: 2px solid black;
+    
     width: calc(100% - 32px);
         border-radius: 10px;
-        display: inline-flex;
+       
         height: 60px;
-        border: none;
+    
         border-radius: 8px;
-        justify-content: center;
-        align-items: center;
+      
+        
         gap: 10px;
     
     }
     
+
+
+
+
+    .popular{
+        min-height: 900px;
+       display: flex;
+       flex-direction: column;
+       height: 100%;
+       gap: 30px;
+       
+    }
+    .popular-info{
+        width: 100%;
+    }
+    
+    .pry-h2{
+        
+    font-size: 6vw;
+    }
+    .pry-p{
+        color: rgba(19, 19, 24, 0.70);
+font-weight: 400;
+line-height:  171.429% ;
+font-size: 14px;
+
+    }
+    
+    
+  
+    .popular .img-container{
+        width: 100%;
+        border-radius: 16px;
+        height: 100%;
+    }
+  
+    .popular .main-p{
+        color: #5A5A5D;
+font-size: 14px;
+line-height: 171.429% ;
+    
+    }
+    .popular-info ul li {
+        margin-bottom: 20px;
+        
+    }
+    .popular-info button{
+        padding: 10px 18px;
+        border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    }
     
     
     
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     
