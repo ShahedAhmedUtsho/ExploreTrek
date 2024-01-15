@@ -94,6 +94,118 @@ header input{
 }
 
 
+
+.hero{
+    border: 2px solid black;
+    height: 500px;
+    border-radius: 16px;
+    border-radius: 16px;
+
+background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+
+}
+.hero-container{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+    
+
+}
+.hero-container h1{
+    color: #FFF;
+font-size: 64px;
+font-weight: 800;
+}
+.hero-container p{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 670px;
+    margin-bottom: 35px;
+}
+.hero-container form{
+    padding: 16px;
+    width: 70%;
+    height:90px ;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-radius: 16px;
+}
+.hero-container .capsul{
+    border: 2px solid black;
+    width: 22%;
+    border-radius: 10px;
+    display: inline-flex;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+
+    color: rgba(19, 19, 24, 0.50);
+font-size: 16px;
+font-weight: 400;
+padding: 0px 10px;
+
+
+
+}
+.hero-container form input[type=text]{
+    color: rgba(19, 19, 24, 0.50);
+padding: 20px;
+font-size: 16px;
+font-weight: 400;
+border-radius: 8px;
+
+}
+.hero input[type=text]{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    border: none;
+}
+.hero-container button{
+    border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+border: 2px solid black;
+    width: 22%;
+    border-radius: 10px;
+    display: inline-flex;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:1000px){
     header nav{
         width: 45%;
@@ -110,6 +222,91 @@ header input{
     }
 
     
+
+
+
+
+
+    .hero{
+        height: 450px;
+    
+    }
+    .hero-container{
+        gap: 20px;
+        
+    
+    }
+    .hero-container h1{
+        color: #FFF;
+    font-size: 60px;
+    font-weight: 600;
+    }
+    .hero-container p{
+      
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .hero-container form{
+        padding: 14px;
+        width: 80%;
+        height:80px ;
+        gap: 10px;
+    }
+    .hero-container .capsul{
+      
+        width: 25%;
+        
+        height: 45px;
+       
+    font-size: 14px;
+    
+    
+    
+    
+    }
+    .hero-container form label{
+        width: 25%;
+    }
+    .hero-container form input[type=text]{
+    padding: 16px;
+    font-size: 14px;
+   
+    
+    }
+    
+    .hero-container button{
+        
+    font-size: 14px;
+    font-weight: 700;
+    }
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 @media screen and (max-width:850px){
    
@@ -159,9 +356,6 @@ transition: all 0.2s linear;
     
     header input:checked+ul{
         display: flex;
-        
-
-
 
     }
     
@@ -173,8 +367,36 @@ transition: all 0.2s linear;
     header{
         height: 80px;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:600px){
     header label{
@@ -191,6 +413,9 @@ transition: all 0.2s linear;
     
         
     }
+
+
+    
 
 
     
