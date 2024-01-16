@@ -8,6 +8,18 @@
 }
 /* font-family: 'Mulish', sans-serif;
 */
+button{
+    -webkit-transition: all 0.15s linear;
+    transform:  all 0.15s linear;
+}
+button:hover{
+    
+    transform: scale(1.08);
+}
+button:active{
+    
+    transform: scale(0.97);
+}
 .max{
     max-width: 1170px;
     margin: 0 auto;
@@ -642,8 +654,15 @@ footer .icon-flex a{
 }
 footer .icon-flex a img{
    width: 30px;
+   -webkit-transition: all 0.1s linier;
+        transition: all 0.1s linear;
     
 }
+footer .icon-flex a img:hover{
+    transform: scale(1.2);
+
+     
+ }
 footer h6{
     margin-top: 40px;
     color: #131318;
