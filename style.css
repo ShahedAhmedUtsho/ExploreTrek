@@ -262,8 +262,149 @@ color: #FFF;
 font-size: 20px;
 font-weight: 800;
 }
+.destination-container {
+   
+    min-height: 1100px;
+    margin-bottom: 80px;
+}
+.destination-container p{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.destination-container h2{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
 
 
+
+
+.destination-grid{
+    min-height: 900px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20%,1fr));
+    grid-gap: 15px;
+
+   
+   width: 100%;
+    
+}
+.grid-items{
+    background-color: #8d98aa;
+    border-radius: 16px;
+
+    
+    
+}
+.grid-items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.grid-items:nth-child(1){
+    grid-column: span 2;
+    position: relative;
+}
+.grid-items:nth-child(n)::before{
+    background-color: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;right: 0;
+    margin: auto;
+
+    color: #FFF;
+font-size: 28px;
+font-weight: 800;
+}
+.grid-items:nth-child(1)::before{
+    content: 'Maldives';
+  
+
+
+
+}
+
+
+
+
+
+.grid-items:nth-child(2){
+    grid-column: span 2;
+    position: relative;
+}
+.grid-items:nth-child(2)::before{
+    content: 'Indonesia';
+   
+
+
+}
+
+
+.grid-items:nth-child(3){
+    grid-column: span 1;
+    position: relative;
+}
+.grid-items:nth-child(3)::before{
+    content: 'Srilanka';
+    
+
+
+
+}
+
+.grid-items:nth-child(4){
+    grid-column: span 2;
+    position: relative;
+}
+.grid-items:nth-child(4)::before{
+    content: 'North America';
+  
+
+
+}
+
+.grid-items:nth-child(5){
+    grid-column: span 1;
+    position: relative;
+}
+.grid-items:nth-child(5)::before{
+    content: 'Kashmir';
+   
+
+
+
+}
+
+.grid-items:nth-child(6){
+    grid-column: span 2;
+    position: relative;
+}
+
+.grid-items:nth-child(6)::before{
+    content: 'Bangladesh';
+  
+
+
+
+}
+.grid-items:nth-child(7){
+    grid-column: span 2;
+    position: relative;
+}
+
+.grid-items:nth-child(7)::before{
+    content: 'Bandarban';
+   
+
+}
 
 
 
@@ -630,10 +771,21 @@ line-height: 171.429% ;
 
 
 
+    .destination-grid{
+        
+        
+            grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+            grid-auto-rows: 280px;
+        
+        
+    }
 
 
-
-
+    .grid-items:nth-child(1n){
+        grid-row: unset;
+        grid-column: unset;
+    
+       }
 
 
 
