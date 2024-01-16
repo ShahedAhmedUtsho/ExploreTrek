@@ -193,6 +193,13 @@ header input{
 .popular ul li{
     text-indent: -1.3em;
     padding-left: 1.2em;
+
+
+
+    color: #131318;
+font-size: 16px;
+font-weight: 700;
+line-height: 162.5%;
 }
 .popular .img-container{
     width: 50%;
@@ -568,6 +575,10 @@ background: rgba(41, 206, 246, 0.05);
         border-radius: 8px;
         gap: 10px;
    }
+   .popular ul li{
+    
+font-size: 14px;
+}
     .popular{
         min-height: 900px;
         display: flex;
@@ -624,7 +635,9 @@ background: rgba(41, 206, 246, 0.05);
    .Choose-flexbox .flexbox-all{
     width: 100%;
 }
-
+.flexbox-all img{
+    width: 45px;
+}
 .flexbox-all h3{
     
 font-size: 24px;
