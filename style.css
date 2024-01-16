@@ -199,6 +199,7 @@ header input{
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 30px;
+    text-shadow: 0px 4px 4px rgba(8, 6, 30, 0.358);
 }
 .pry-p{
     color: rgba(19, 19, 24, 0.70);
@@ -256,6 +257,7 @@ header input{
 .destination-container h2{
     text-align: center;
     margin-bottom: 20px;
+    text-shadow: 0px 4px 4px rgba(8, 6, 30, 0.358);
 }
 .destination-grid{
     min-height: 900px;
@@ -268,12 +270,19 @@ header input{
 .grid-items{
     background-color: #8d98aa;
     border-radius: 16px;
+    -webkit-transition: all 0.15s linier;
+        transition: all 0.15s linear;
+}
+.grid-items:hover{
+    transform: scale(1.03);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .grid-items img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 16px;
+    
 }
 .grid-items:nth-child(1){
     grid-column: span 2;
@@ -351,6 +360,7 @@ header input{
 .Choose-container h2{
     text-align: center;
     margin-bottom: 20px;
+    text-shadow: 0px 4px 4px rgba(8, 6, 30, 0.358);
 }
 .Choose-flexbox{
     display: flex;
@@ -381,6 +391,7 @@ header input{
     color: #131318;
     font-size: 24px;
     font-weight: 800;
+    text-shadow: 0px 3px 4px rgba(8, 6, 30, 0.358);
 }
 .Choose-flexbox .flexbox-three{
     border-radius: 16px;
@@ -720,6 +731,13 @@ margin-bottom: 20px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    -webkit-transition: all 0.1s linier;
+    transition: all 0.1s linear;
+
+}
+.test-item:hover{
+   transform: scale(1.02);
+   box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
 
 }
 .test-item .name{
